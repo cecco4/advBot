@@ -64,7 +64,7 @@ def handle(msg):
 
 
 print "loading world"
-f = open('dt.txt', 'r')
+f = open('worlds/dt.txt', 'r')
 data = json.loads(f.read())
 
 Nodes = {}
